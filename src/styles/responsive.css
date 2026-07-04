@@ -1,0 +1,94 @@
+@media (max-width:768px) {
+    header{
+        padding: 1rem;
+    }
+    .hero{
+        padding: 1rem;
+        justify-content: center;
+    }
+    .hero-contents h1{
+        font-size: 3rem;
+    }
+    .hero-contents h1 span{
+        font-size: 3rem;
+    }
+    .hero-teach-tools{
+        display: none;
+        visibility: hidden;
+    }
+    .hero-btn{
+    }
+    .hero-social-icons{
+        display: none;
+        visibility: hidden;
+    }
+    .hero-img{
+        
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+
+    }
+    .hero img:hover{
+       
+    }
+
+
+    .about {
+        justify-content: center;
+        padding: 1rem;;
+    }
+    .about-title{
+        padding: 2rem;
+    }
+    .about-title h1{
+        font-size: 3rem;
+        font-weight: var(--fw-bold);
+    }
+    
+    .about-contents h2{
+        font-family: var(--font-main);
+        font-size: 2rem;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .about-contents h2 span{
+        font-family: var(--font-main);
+        display: block;
+        font-size: 2rem;
+    }
+    .about-contents p{
+        padding: 1rem;
+    }
+    
+    #my-idea{
+        padding: 0.6rem;
+        font-weight: var(--fw-bold);
+        background-color: var(--main-color);
+
+    }
+    .about-btn{
+        padding: 1.5rem;
+        display: grid;
+        align-items: center;
+    }
+    .about-img img{
+        width: 300px;
+    }
+
+    .about-stats{
+        padding: 1rem;
+    }
+    .stats {
+    }
+    .contact-title h1{
+        font-size: 3rem;
+    }
+    .contact-title p{
+        font-size: 1rem;
+        font-weight: var(--fw-light);
+    }
+
+}

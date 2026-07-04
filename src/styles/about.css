@@ -1,0 +1,134 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-title h1 {
+    font-family: var(--font-main);
+    font-size: var(--text-lg);
+    font-weight: var(--fw-bold);
+    color: var(--primary-color);
+}
+.about-title h1 span {
+    display: block;
+    font-size: var(--text-sm);
+    font-family: var(--font-secondary);
+    font-weight: var(--text-weight);
+    color: var(--text-color);
+}
+
+.about-img{
+    display: flex;
+    flex: 1 1 300px;
+    
+    justify-content: center;
+}
+.about-img img{
+    max-width: 350px;
+    height: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 4rem 7.5rem;
+}
+.about-contents{
+    flex: 1 1 450px;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+}
+.about-contents h2 {
+    color: var(--primary-color);
+    font-size: var(--text-lg);
+}
+.about-contents h2 span {
+    display: block;
+    color: var(--text-color);
+    font-size: 3rem;
+}
+.about-contents p {
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+.about-contents p span{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+#my-idea{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    padding: 0.6rem;;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    background: var(var(--color));
+    border-radius: 10px;
+}
+.about-btn {
+    display: flex;
+    gap: 1rem;
+}
+.cv-btn{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.5rem 1.2rem;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    font-weight: 2rem;
+    font-size: 1rem;
+}
+.about-projects-btn{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding:0.5rem 1.2rem;
+    color: var(--primary-color);
+    background: var(--color);
+    font-weight: 2rem;
+    font-size: 1rem;
+}
+
+.about-stats{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 7.5rem;
+}
+.stats{
+    position: relative;
+    flex: 1 1 200px;
+    grid-row: auto;
+    padding: 1rem;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+.stats img{
+    width: 40px;
+    height: auto;
+    color: var(--text-secondary);
+}
+.stats h2{
+    font-family: var(--font-main);
+    font-weight: var(--fw-bold);
+    font-size: var(--text-size);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.stats h3, p{
+    padding: 0.5rem 0rem;
+    color: var(--text-secondary);
+}

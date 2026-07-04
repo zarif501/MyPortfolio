@@ -1,0 +1,107 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-title{
+    padding: 4rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.contact-title h1{
+    font-family: var(--font-secondary);
+    font-size: var(--text-lg);
+    font-weight: var(--fw-bold);
+    color: var(--primary-color);
+}
+.contact-title p{
+    color: var(--text-color);
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    font-weight: var(--fw-regular);
+}
+
+.contact-contents{
+    background-color: var(--main-color);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: grid;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.contact-contents h2{
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+    font-size: var(--text-size);
+    font-weight: var(--fw-bold);
+}
+.contact-contents p{
+    color: var(--text-secondary);
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-weight: var(--fw-light);
+    padding: 10px;
+}
+
+.contact-form{
+    padding: 10px;
+    display: grid;
+    grid-auto-rows: 1;
+    grid-auto-columns: 1;
+    grid-auto-flow: row;
+}
+.form-contents{
+    padding: 1rem;
+    display: flex;
+    gap: 10px;
+}
+.form-contents input{
+    background-color: rgb(99, 96, 115);
+    width: 100%;
+    resize: vertical;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    font-weight: var(--fw-light);
+    color: var(--text-color);
+}
+.form-contents input::placeholder{
+    font-size: var(--font-size);
+}
+.form-contents textarea{
+    background-color: rgb(99,96,115);
+    font-family: var(--font-secondary);
+    font-size: var(--text-sm);
+    font-weight: var(--fw-light);
+    color: var(--text-color);
+    width: 100%;
+    resize: vertical;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+.msg-icon {
+    vertical-align: top;
+    color: gray;
+}
+.form-icon{
+    color: var(--border-color);
+    
+}
+
+.form-btn{
+    background-color: var(--primary-color);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    font-size: var(--text-sm);
+    font-weight: var(--fw-light);
+}

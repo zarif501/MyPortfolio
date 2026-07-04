@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+    --main-color: #0F172A;
+    --primary-color: #6d28d9;
+    --bg-color: #2d254f;
+    --text-color: #F5F7FA;
+    --text-secondary:#8ea3a6;
+    --border-color: #808080;
+    
+
+    /* fonts */
+    --font-main: "Poppins", sans-serif;
+    --font-secondary: "Space Grotesk", sans-serif;
+
+    /* font sizes */
+    --text-sm: 1rem;
+    --text-size: 2rem;
+    --text-lg: 4rem;
+
+    /* font weights */
+    --fw-light: 400;
+    --fw-regular: 600;
+    --fw-bold: 900;
+}

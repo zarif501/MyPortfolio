@@ -1,0 +1,92 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7.5rem;
+}
+.hero-contents {
+    flex: 1 1 450px;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-contents h1 {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--text-lg);
+
+}
+
+.hero-contents h1 span {
+    display: block;
+    align-items: center;
+    font-weight: var(--fw-bold);
+    font-size: var(--text-lg);
+    color: var(--primary-color);
+}
+
+.hero-contents p {
+    font-family: var(--font-secondery);
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+
+.hero-teach-tools {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-teach-tools div {
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 5px 1rem;
+    color: var(--text-color);
+}
+
+.hero-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-btn button {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: var(--text-color);
+    background: var(--main-color);
+    font-weight: 10px;
+    font-size: var(--text-sm);
+}
+
+.hero-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-social-icons a {
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-color);
+}
+
+.hero-img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.hero-img img{
+}

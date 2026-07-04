@@ -1,0 +1,58 @@
+header {
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    -webkit-backdrop-filter: blur(12px);
+
+}
+
+header h1 {
+    font-family: var(--font-secondary);
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all;
+    
+}
+header h1:hover{
+    color: var(--text-color);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font-main);
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    color: var(--primary-color);
+}
+
+header ul li a:hover::before {}
+
+header ul li a:hover::after {}
+
+
+.copy-right hr{
+    size: 1px;
+    font-weight: 1px;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color);
+    padding: 20px;
+}
