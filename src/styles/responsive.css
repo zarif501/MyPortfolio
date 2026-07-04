@@ -1,4 +1,9 @@
 @media (max-width:768px) {
+    #skill-nav{
+        visibility: hidden;
+        display: none;
+    }
+
     header{
         padding: 1rem;
     }

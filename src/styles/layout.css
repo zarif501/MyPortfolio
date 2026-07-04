@@ -5,7 +5,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 10%;
-    -webkit-backdrop-filter: blur(12px);
+    border-radius: 50px;
+    backdrop-filter: blur(12px);
 
 }
 
