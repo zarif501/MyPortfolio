@@ -1,3 +1,10 @@
+.dark{
+    background-color: #060a15;
+    color: aliceblue;
+}
+
+.light{
+}
 * {
     padding: 0%;
     margin: 0%;

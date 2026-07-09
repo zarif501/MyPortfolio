@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/assets/logo/logo.jpg" sizes="32x32">
-    <title>zarif</title>
+    <title>zarif.dev</title>
     <link rel="stylesheet" href="src/styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <header>
-    <h1>zarif</h1>
+    <h1>zarif.dev</h1>
 
     <ul>
-       <li><a href="#">Home</a></li>
+       <li><a href="#home">Home</a></li>
        <li><a href="#about">About</a></li>
-       <li id="skill-nav"><a href="#skills">Skills</a></li>
-       <li><a href="#projects">Projects</a></li>
        <li><a href="#contact">Contact</a></li>
 
     </ul>
@@ -23,7 +21,7 @@
 </header>
 
 <body>
-    <section class="hero">
+    <section class="hero" id="home">
         <div  class="hero-contents">
             <h1>Computer 
                 <span>Engineer</span>
@@ -153,7 +151,7 @@
         <div id="contact" class="contact-contents">
             <h2>Get in Touch
             </h2>
-            <p>
+            <p id="aboutEnteredText">
                 Got a question? Send me a 
                 message!
             </p>
@@ -162,20 +160,20 @@
 
                 <div class="form-contents">
                     <i class="fa-solid fa-user form-icon"></i>
-                    <input type="text" placeholder="Your Name" required>
+                    <input id="aboutUserInput" type="text" placeholder="Your Name" required>
                 </div>
 
                 <div class="form-contents">
                     <i class="fa-solid fa-envelope form-icon"></i>
-                    <input type="email" placeholder="Your Email" required>
+                    <input id="aboutUserEmailInput" type="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="form-contents">
                     <i class="fa-solid fa-message msg-icon"></i>
-                    <textarea placeholder="Your Message" rows="5" cols="50" required></textarea>
+                    <textarea  placeholder="Your Message" rows="5" cols="50" required id="aboutUserMessageInput"></textarea>
                 </div>
 
-                <button class="form-btn" type="submit"> 
+                <button class="form-btn" type="submit" id="click"> 
                     <i class="fa-solid fa-paper-plane"></i>
                      Send Message</button>
                 
@@ -190,5 +188,6 @@
 
         </div>
     </footer>
+    <script src="src/js/index.js"></script>
 </body>
 </html>
