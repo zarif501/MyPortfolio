@@ -1,50 +1,52 @@
-header {
+.navbar {
     position: sticky;
     top: 0%;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10%;
+    align-items: center;
     border-radius: 50px;
     backdrop-filter: blur(12px);
-
+    gap: 3em;
+    padding-top: max(1rem, env(safe-area-inset-top));
 }
 
-header h1 {
+.brand{
     font-family: var(--font-secondary);
+    font-weight: var(--fw-bold);
     font-size: 2rem;
     color: var(--primary-color);
+    text-decoration: none;
+    white-space: nowrap;
     cursor: pointer;
     transition: all;
     
 }
-header h1:hover{
+.brand:hover{
     color: var(--text-color);
 }
 
-header ul {
+.nav-links {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 1.25rem;
     align-items: center;
-    list-style: none;
 }
 
-header ul li a {
+.nav-links a {
+    color: #d1d5db;
+    transition: color 0.2s ease;
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--font-main);
     cursor: pointer;
 }
 
-header ul li a:hover {
+.nav-links a:hover,
+nav-links:active {
+    font-weight: 600;
     color: var(--primary-color);
 }
-
-header ul li a:hover::before {}
-
-header ul li a:hover::after {}
-
 
 .copy-right hr{
     size: 1px;

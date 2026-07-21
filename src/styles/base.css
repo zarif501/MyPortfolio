@@ -3,15 +3,19 @@
     color: aliceblue;
 }
 
-.light{
-}
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+        scroll-padding-top: 90px;
+}
 
-body {
+body, body {
+    width: 80%;
+    margin: 0 auto;
     background: linear-gradient(to right, #060a15, #413385);
 }

@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 7.5rem;
+    padding: 7.5rem 0;
 }
 .hero-contents {
     flex: 1 1 450px;
@@ -81,11 +81,15 @@
 }
 
 .hero-img {
-    width: 300px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
+.hero-img:hover{
+    transform:transition 1s ease scale(1.2);
+}
 .hero-img img{
+    width: 300px;
 }

@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="src/styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-<header>
-    <h1>zarif.dev</h1>
+<header class="navbar">
+   <a href="/" class="brand">zarif.dev</a>
 
-    <ul>
-       <li><a href="#home">Home</a></li>
-       <li><a href="#about">About</a></li>
-       <li><a href="#contact">Contact</a></li>
+    <nav class="nav-links">
+       <a href="#home">Home</a>
+       <a href="#about">About</a>
+       <a href="#contact">Contact</a>
 
-    </ul>
+    </nav>
 
 </header>
 
@@ -40,7 +40,7 @@
 
             <div class="hero-btn">
                 <Button >View Projects</Button>
-                <button >Contact Me</button>
+                <button id="contact-me" >Contact Me</button>
             </div>
 
             <div class="hero-social-icons">
@@ -99,7 +99,7 @@
                     <button class="cv-btn" onclick="alert('Server error: data not fund')">
                         Download CV</button>
 
-                    <button class="about-projects-btn" >
+                    <button id="view-projects" class="about-projects-btn" >
                         View Projects</button>
                 </div>
 
@@ -127,10 +127,10 @@
                     <p>Professional skills validated</p>
                 </div>
 
-                <div class="stats">
+                <div id="certificates" class="stats">
                     <img src="src/assets/icons/experience.svg" alt="experience">
-                    <h2>3</h2>
-                    <h3>Years of experience</h3>
+                    <h2>8</h2>
+                    <h3>Certificates</h3>
                     <p>Continuous learning journey</p>
                 </div>
             </div>
@@ -188,6 +188,6 @@
 
         </div>
     </footer>
-    <script src="src/js/index.js"></script>
+    <script type="module" src="src/js/main.js"></script>
 </body>
 </html>
