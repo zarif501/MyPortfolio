@@ -20,8 +20,8 @@
 
     --text-sm: clamp(0.85rem, 0.3vw + 0.75rem, 1rem);
     --text-size: clamp(1.1rem, 0.6vw + 0.95rem, 1.35rem);
-    --text-lg: clamp(2.5rem, 3vw + 1.5rem, 4.5rem);
-    --text-xl: clamp(3rem, 4vw + 1.5rem, 6rem);
+    --text-lg: clamp(2.5rem, 3vw + 1.5rem, 3.5rem);
+    --text-xl: clamp(3rem, 4vw + 1.5rem, 5rem);
     
 
     /* font weights */

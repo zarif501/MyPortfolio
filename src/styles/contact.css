@@ -7,7 +7,7 @@
 }
 
 .contact-title{
-    padding: 4rem 0;
+    padding: 4em 0;
     display: grid;
     align-items: center;
     text-align: center;
@@ -32,7 +32,7 @@
     height: auto;
     display: grid;
     padding: 2rem;
-    border-radius: 20px;
+    border-radius: 1em;
 }
 .contact-contents h2{
     color: var(--primary-color);
@@ -49,22 +49,22 @@
 }
 
 .contact-form{
-    padding: 10px;
+    padding: 1em 0;
     display: grid;
     grid-auto-rows: 1;
     grid-auto-columns: 1;
     grid-auto-flow: row;
 }
 .form-contents{
-    padding: 1rem;
+    padding: 0.75em;
     display: flex;
-    gap: 10px;
+    gap: 0.75em;
 }
 .form-contents input{
     background-color: rgb(99, 96, 115);
     width: 100%;
     resize: vertical;
-    padding: 20px;
+    padding: 1.25em;
     border: 1px solid var(--border-color);
     border-radius: 10px;
     font-family: var(--font-secondary);
@@ -97,8 +97,9 @@
 }
 
 .form-btn{
+    margin-left: 5%;
     background-color: var(--primary-color);
-    padding: 20px;
+    padding: 1em;
     border: 1px solid var(--border-color);
     border-radius: 10px;
     color: var(--text-color);

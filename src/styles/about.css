@@ -15,7 +15,7 @@
     font-size: var(--text-sm);
     font-family: var(--font-secondary);
     font-weight: var(--text-weight);
-    color: var(--text-color);
+    color: antiquewhite;
 }
 
 .about{
