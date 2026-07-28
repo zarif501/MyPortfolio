@@ -30,3 +30,7 @@ onClick.addEventListener("click", (event) => {
     }
     
 });
+
+let img = document.querySelector("#blank");
+
+img.addEventListener("click", function)

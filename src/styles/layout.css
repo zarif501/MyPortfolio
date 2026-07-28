@@ -5,10 +5,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     border-radius: 50px;
     backdrop-filter: blur(12px);
     gap: 3em;
-    padding-top: max(1rem, env(safe-area-inset-top));
+    padding: max( 0.75em, env(safe-area-inset-top));
 }
 
 .brand{
@@ -20,7 +21,6 @@
     white-space: nowrap;
     cursor: pointer;
     transition: all;
-    
 }
 .brand:hover{
     color: var(--text-color);
@@ -29,7 +29,7 @@
 .nav-links {
     display: flex;
     justify-content: space-between;
-    gap: 1.25rem;
+    gap: 1.75rem;
     align-items: center;
 }
 
@@ -41,9 +41,11 @@
     font-family: var(--font-main);
     cursor: pointer;
 }
-
+.nav-contact{
+    display: none;
+}
 .nav-links a:hover,
-nav-links:active {
+.nav-links:active {
     font-weight: 600;
     color: var(--primary-color);
 }

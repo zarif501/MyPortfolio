@@ -7,14 +7,14 @@
 }
 
 .contact-title{
-    padding: 4rem;
+    padding: 4rem 0;
     display: grid;
     align-items: center;
     text-align: center;
 }
 .contact-title h1{
     font-family: var(--font-secondary);
-    font-size: var(--text-lg);
+    font-size: clamp(1.5rem, 4vw + 1rem, 3.5rem);
     font-weight: var(--fw-bold);
     color: var(--primary-color);
 }

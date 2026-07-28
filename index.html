@@ -11,18 +11,30 @@
 <header class="navbar">
    <a href="/" class="brand">zarif.dev</a>
 
-    <nav class="nav-links">
-       <a href="#home">Home</a>
-       <a href="#about">About</a>
-       <a href="#contact">Contact</a>
-
+    <nav class="nav-links" id="nav-links">
+       <a class="nav-link" href="#home">Home</a>
+       <a class="nav-link" href="#about">About</a>
+       <a class="nav-link" href="#contact">Contact</a>
     </nav>
 
+    <div class="nav-contact">
+    <h1></h1>
+        <a href="https://instagram.com/zarif.dev" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>
 </header>
 
 <body>
     <section class="hero" id="home">
+
         <div  class="hero-contents">
+            <div class="hero-hook">
+                <img src="src/assets/icons/rocket.svg" alt="">
+                <p>Crafted to inspire.
+                </p>
+            </div>
+
             <h1>Computer 
                 <span>Engineer</span>
             </h1>
@@ -39,7 +51,7 @@
             </div>
 
             <div class="hero-btn">
-                <Button >View Projects</Button>
+                <button >View Projects</button>
                 <button id="contact-me" >Contact Me</button>
             </div>
 
@@ -55,16 +67,12 @@
                 <a href="https://linkedin.com/in/zarif-nazari-b17447336" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
                 </a>
-
-                <a href="mailto:zarif501@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-                </a>
             </div>
         </div>
+
             <div class="hero-img">
                 <img src="src/assets/images/hero.svg" alt="hero-img">
             </div>
-
     </section>
 
 
@@ -93,7 +101,7 @@
                 </p>
 
                 <i id="my-idea">
-                    "Leveraging AI as a professional tool, not a replacement."
+                    🌟Leveraging AI as a professional tool, not a replacement.
                 </i>
                 <div class="about-btn">
                     <button class="cv-btn" onclick="alert('Server error: data not fund')">
@@ -110,31 +118,33 @@
             </div>
 
         </div>
-
-            <div class="about-stats">
-
-                <div id="projects" class="stats" onclick="alert('Under Construction')">
-                    <img src="src/assets/icons/project.svg" alt="projects">
-                    <h2>8</h2>
-                    <h3>Total Projects</h3>
-                    <p>innovative solutions</p>
-                </div>
-
-                <div id="skills" class="stats" >
-                    <img src="src/assets/icons/skills.svg" alt="skills">
-                    <h2>6</h2>
-                    <h3>Teach Skills</h3>
-                    <p>Professional skills validated</p>
-                </div>
-
-                <div id="certificates" class="stats">
-                    <img src="src/assets/icons/experience.svg" alt="experience">
-                    <h2>8</h2>
-                    <h3>Certificates</h3>
-                    <p>Continuous learning journey</p>
-                </div>
-            </div>
     </main>
+
+    <section id="portfolio">
+        <div class="about-stats">
+
+            <div id="projects" class="stats" onclick="alert('Under Construction')">
+                <img src="src/assets/icons/project.svg" alt="projects">
+                <h2>8</h2>
+                <h3>Total Projects</h3>
+                <p>innovative solutions</p>
+            </div>
+
+            <div id="skills"  class="stats" >
+                <img src="src/assets/icons/skills.svg" alt="skills">
+                <h2>6</h2>
+                <h3>Teach Skills</h3>
+                <p>Professional skills validated</p>
+            </div>
+
+            <div id="certificates" class="stats">
+                <img src="src/assets/icons/experience.svg" alt="experience">
+                <h2>8</h2>
+                <h3>Certificates</h3>
+                <p>Continuous learning journey</p>
+            </div>
+        </div>
+        </section>
 
 
     <section class="contact">

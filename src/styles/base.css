@@ -1,6 +1,9 @@
 .dark{
-    background-color: #060a15;
-    color: aliceblue;
+background: radial-gradient(circle at 30% 40%, rgba(139, 92, 246, 0.15),
+ transparent 60%),#0a0a12;
+}
+.light{
+    
 }
 
 * {
@@ -11,11 +14,12 @@
 
 html {
     scroll-behavior: smooth;
-        scroll-padding-top: 90px;
+    scroll-padding-top: 90px;
 }
 
 body, body {
     width: 80%;
     margin: 0 auto;
-    background: linear-gradient(to right, #060a15, #413385);
+    background: radial-gradient(circle at 30% 40%, rgba(139, 92, 246, 0.15), transparent 60%),
+            #0a0a12;
 }

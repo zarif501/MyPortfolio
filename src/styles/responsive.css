@@ -75,9 +75,6 @@
         display: grid;
         align-items: center;
     }
-    .about-img img{
-        width: 300px;
-    }
 
     .about-stats{
         padding: 1rem;
