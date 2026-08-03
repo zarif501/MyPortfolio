@@ -6,4 +6,4 @@ const certificates = document.querySelector("#certificates");
 
         const certificatesClick = document.createElement("div");
     });
-    
+

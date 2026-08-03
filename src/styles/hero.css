@@ -30,14 +30,20 @@
         width: fit-content;
         color: var(--primary-color);
         text-shadow: 2px 2px 5px var(--main-color);
-    }
-    p:hover {
-        text-shadow: 2px 2px 5px var(--main-color);
+        animation: hero-hook 1s ease 0s initial;
     }
     img{
         width: fit-content;
     }
-}
+    &:hover {
+        text-shadow: 2px 2px 5px var(--main-color);
+    }
+} 
+
+    @keyframes hero-hook {
+        from {transform: translateX(0);}
+        to {transform: translateX(10px);}
+    }
 .hero-hook:hover{
     box-shadow: 0 0 24px 2px var(--bg-color);
 }
