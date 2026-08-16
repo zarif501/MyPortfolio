@@ -1,8 +1,12 @@
+.about{
+    padding: 8.75em 0;
+}
 .about-title {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 0 5em  0;
 }
 .about-title h1 {
     font-family: var(--font-main);
@@ -18,13 +22,13 @@
     color: antiquewhite;
 }
 
-.about{
+.about-me{
     overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 7.5em 1em;
+    padding: 1.75em 1em;
 }
 .about-contents{
     max-width: 700px;
@@ -61,7 +65,26 @@
     border: 1px solid var(--border-color);
     background: var(var(--color));
     border-radius: 10px;
+
+
+
 }
+#about-idea-star{
+    animation: float 4s ease-in-out infinite;
+}
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-5px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
 .about-btn {
     display: flex;
     gap: 1rem;
@@ -93,6 +116,7 @@
 
 .about-img {
     display: flex;
+    flex-direction: column;
     flex: 0 0 300px;
     aspect-ratio: 1/1;
     max-width: 550px;
@@ -102,9 +126,13 @@
     overflow: hidden;
 }
 .about-img img {
-    width: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    max-width: 600px;
     height: 100%;
-    display: block;
+    display: flex;
     border: 1px solid var(--border-color);
     border-radius: 50%;
     object-fit: cover;
@@ -114,4 +142,58 @@
 .about-img:hover {
     transform: rotate(1deg) scale(1.05);
     filter: drop-shadow(0 0 14px var(--bg-color));
+}
+
+
+.about-stats {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+    border: px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.stats {
+    position: relative;
+    flex: 1 1 200px;
+    grid-row: auto;
+    padding: 1rem;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stats:hover {
+    transform: scale(1.1);
+}
+
+.stats img {
+    width: 40px;
+    height: auto;
+    color: var(--text-secondary);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stats img:hover {
+    transform: rotate(50deg);
+}
+
+.stats h2 {
+    font-family: var(--font-main);
+    font-weight: var(--fw-bold);
+    font-size: var(--text-size);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.stats h3,
+    p {
+        padding: 0.5rem 0rem;
+        color: var(--text-secondary);
 }

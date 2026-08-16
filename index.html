@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/assets/logo/logo.jpg" sizes="32x32">
-    <title>zarif.dev</title>
+    <title>zarif</title>
     <link rel="stylesheet" href="src/styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -76,7 +76,7 @@
     </section>
 
 
-    <main>
+    <main class="about">
         
             <div id="about" class="about-title">
                 <h1>
@@ -86,7 +86,7 @@
                 </h1>
             </div>
 
-        <div class="about">
+        <div class="about-me">
            <div class="about-contents"> 
 
                 <h2>
@@ -101,7 +101,7 @@
                 </p>
 
                 <i id="my-idea">
-                    🌟Leveraging AI as a professional tool, not a replacement.
+                    <span id="about-idea-star">🌟</span>Leveraging AI as a professional tool, not a replacement.
                 </i>
                 <div class="about-btn">
                     <button class="cv-btn" onclick="alert('Server error: data not fund')">
@@ -118,34 +118,68 @@
             </div>
 
         </div>
+
+        <section id="about-portfolio">
+            <div class="about-stats">
+
+                <div id="projects" class="stats" onclick="alert('Under Construction')">
+                    <img src="src/assets/icons/project.svg" alt="projects">
+                    <h2>8</h2>
+                    <h3>TOTAL PROJECTS</h3>
+                    <p>innovative solutions</p>
+                </div>
+
+                <div id="skills"  class="stats" >
+                    <img src="src/assets/icons/certificates.svg" alt="skills">
+                    <h2>6</h2>
+                    <h3>CERTIFICATES</h3>
+                    <p>Professional skills validated</p>
+                </div>
+
+                <div id="certificates" class="stats">
+                    <img src="src/assets/icons/experience.svg" alt="experience">
+                    <h2>3</h2>
+                    <h3>YEARS OF EXPERIENCE</h3>
+                    <p>Continuous learning journey</p>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
-    <section id="portfolio">
-        <div class="about-stats">
+    <section id="portfolio-showcase" class="portfolio-showcase">
 
-            <div id="projects" class="stats" onclick="alert('Under Construction')">
-                <img src="src/assets/icons/project.svg" alt="projects">
-                <h2>8</h2>
-                <h3>Total Projects</h3>
-                <p>innovative solutions</p>
-            </div>
-
-            <div id="skills"  class="stats" >
-                <img src="src/assets/icons/skills.svg" alt="skills">
-                <h2>6</h2>
-                <h3>Teach Skills</h3>
-                <p>Professional skills validated</p>
-            </div>
-
-            <div id="certificates" class="stats">
-                <img src="src/assets/icons/experience.svg" alt="experience">
-                <h2>8</h2>
-                <h3>Certificates</h3>
-                <p>Continuous learning journey</p>
-            </div>
+        <div class="portfolio-title">
+            <h1>Portfolio Showcase</h1>
+            <p>Explore my journey through projects,
+                 certifications, and technical expertise. 
+                <span> Each section represents a milestone in my continuous learning path.</span>
+                </p>
         </div>
-        </section>
 
+        <div id="portfolio-btns" class="portfolio-btns">
+            <button id="projects" class="portfolio-stats">
+                <img src="src/assets/icons/project.svg" style="width: 24px;" alt="projects">
+                <h3>Projects</h3>
+
+            </button>
+
+            <button id="certificates" class="portfolio-stats">
+                <img src="src/assets/icons/certificates.svg" style="width: 24px;" alt="certificates">
+                <h3>Certificates</h3>
+
+            </button>
+
+            <button id="projects" class="portfolio-stats">
+                <img src="src/assets/icons/tech-stick.svg" style="width: 24px;" alt="projects">
+                <h3>Tech Stack</h3>
+            </button>
+        <div>
+    </section>
+
+    <section id="portfolio-showcase-result" class="portfolio-showcase-result">
+
+    </section>
 
     <section class="contact">
 

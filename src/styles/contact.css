@@ -71,9 +71,21 @@
     font-size: var(--text-sm);
     font-weight: var(--fw-light);
     color: var(--text-color);
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-contents input::placeholder{
+    transition: transform 0.3s ease, opacity 0.3s ease;
     font-size: var(--font-size);
+}
+.form-contents input:hover{
+    transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(36, 34, 34, 0.25), 0 0 15px rgba(255, 255, 255, 0.2)
+}
+.form-contents input:focus{
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35), 0 0 20px rgba(255, 255, 255, 0.4);
 }
 .form-contents textarea{
     background-color: rgb(99,96,115);

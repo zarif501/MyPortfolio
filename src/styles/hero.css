@@ -4,7 +4,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 7.5rem 1em;
+    padding: 10.75em 1em;
+    animation: fadeOn 0.ms ease-out;
+    transition: min-height 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+        padding 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-contents {
     max-width: 500px;
@@ -12,12 +15,12 @@
     display: grid;
     grid-auto-flow: row;
     grid-auto-rows: min-content;
-    gap: 1em;
+    gap: 1.5em;
 }
 .hero-hook{
     width: fit-content;
     height: fit-content;
-    padding: 0 1em;
+    padding: 0 0.50em;
     display: flex;
     justify-content: space-around;
     gap: 0.25em;
@@ -34,6 +37,7 @@
     }
     img{
         width: fit-content;
+        animation: float 4s ease-in-out infinite;
     }
     &:hover {
         text-shadow: 2px 2px 5px var(--main-color);
@@ -68,7 +72,6 @@
 .hero-contents p {
     font-family: var(--font-secondery);
     font-size: var(--text-size);
-    font-size: 1.2rem;
     color: antiquewhite;
 }
 
@@ -92,6 +95,7 @@
 
 .hero-teach-tools div:hover{
     box-shadow: 0 0 14px 2px var(--bg-color);
+    animation: float 4s ease-in-out infinite;
 }
 
 .hero-btn {
@@ -126,6 +130,7 @@
     border-radius: 10px;
     color: var(--text-color);
     box-shadow: 0 0 24px 2px var(--bg-color);
+    animation: float 4s ease-in-out infinite;
 }
 .hero-social-icons a:hover{
     box-shadow: 0 0 24px 2px var(--primary-color);
@@ -135,6 +140,7 @@
     max-width: 450px;
     height: auto;
     align-items: center;
+    padding: 2em;
 }
 .hero-img img{
     height: auto;
