@@ -1,31 +1,29 @@
 :root {
-    /* colors */
-    --main-color: #0c1426;
-    --primary-color: #6d28d9;
-    --bg-color: #352092;
-    --text-color: #F5F7FA;
-    --text-secondary:#8ea3a6;
-    --border-color: #808080;
-    
+  /* colors */
+  --main-color: #0c1426;
+  --primary-color: #6d28d9;
+  --bg-color: #352092;
+  --text-color: #f5f7fa;
+  --text-secondary: #8ea3a6;
+  --border-color: #808080;
 
-    /* fonts */
-    --font-main: 'Space Grotesk', sans-serif;
-    --font-secondary: "Space Grotesk", sans-serif;
+  /* fonts */
+  --font-main: "Space Grotesk", sans-serif;
+  --font-secondary: "Space Grotesk", sans-serif;
 
-    /* font sizes 
+  /* font sizes 
     --text-sm: 1rem;
     --text-size: 2rem;
     --text-lg: 4rem;
     */
 
-    --text-sm: clamp(0.85rem, 0.3vw + 0.75rem, 1rem);
-    --text-size: clamp(1.1rem, 0.6vw + 0.95rem, 1.35rem);
-    --text-lg: clamp(2.5rem, 3vw + 1.5rem, 3.5rem);
-    --text-xl: clamp(3rem, 4vw + 1.5rem, 5rem);
-    
+  --text-sm: clamp(0.85rem, 0.3vw + 0.75rem, 1rem);
+  --text-size: clamp(1.1rem, 0.6vw + 0.95rem, 1.35rem);
+  --text-lg: clamp(2.5rem, 3vw + 1.5rem, 3.5rem);
+  --text-xl: clamp(3rem, 4vw + 1.5rem, 5rem);
 
-    /* font weights */
-    --fw-light: 400;
-    --fw-regular: 600;
-    --fw-bold: 900;
+  /* font weights */
+  --fw-light: 400;
+  --fw-regular: 600;
+  --fw-bold: 900;
 }

@@ -1,78 +1,80 @@
-@media (max-width:768px) {
-    #skill-nav{
-        visibility: hidden;
-        display: none;
-    }
+@media (max-width: 768px) {
+  #skill-nav {
+    visibility: hidden;
+    display: none;
+  }
 
-    header{
-        padding: 1rem;
-    }
-    .hero{
-        padding: 0.75em 0;
-    }
-    .hero-hook{
-        display: none;
-    }
+  header {
+    padding: 1rem;
+  }
+  .hero {
+    padding: 0.75em 0;
+  }
+  .hero-hook {
+    display: none;
+  }
 
-    .hero-teach-tools{
-        display: none;
-        visibility: hidden;
-    }
+  .hero-teach-tools {
+    display: none;
+    visibility: hidden;
+  }
 
-    .hero-social-icons{
-        display: none;
-        visibility: hidden;
-    }
-    .hero-img{
-        padding: 1em;
-        display: flex;
-        justify-content: center;
-    }
+  .hero-social-icons {
+    display: none;
+    visibility: hidden;
+  }
+  .hero-img {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+  }
 
-    .about {
-        justify-content: center;
-        padding: 1em 0;
-    }
-    .about-title{
-        padding: 2rem;
-    }
-    .about-title h1{
-        font-size: 3rem;
-        font-weight: var(--fw-bold);
-    }
-    
-    .about-contents h2{
-        font-family: var(--font-main);
-        font-size: 2rem;
-        display: grid;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    .about-contents h2 span{
-        font-family: var(--font-main);
-        display: block;
-        font-size: 2rem;
-    }
+  .about {
+    justify-content: center;
+    padding: 1em 0;
+  }
+  .about-title {
+    padding: 2rem;
+  }
+  .about-title h1 {
+    font-size: 3rem;
+    font-weight: var(--fw-bold);
+  }
 
-    
-    #my-idea{
-        padding: 0.6rem;
-        font-weight: var(--fw-bold);
-        background-color: var(--main-color);
+  .about-contents h2 {
+    font-family: var(--font-main);
+    font-size: 2rem;
+    display: grid;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about-contents h2 span {
+    font-family: var(--font-main);
+    display: block;
+    font-size: 2rem;
+  }
 
-    }
-    .about-btn{
-        padding: 1.5rem;
-        display: grid;
-        align-items: center;
-    }
+  #my-idea {
+    padding: 0.6rem;
+    font-weight: var(--fw-bold);
+    background-color: var(--main-color);
+  }
+  .about-btn {
+    padding: 1.5rem;
+    display: grid;
+    align-items: center;
+  }
 
-    .contact-title h1{
-        font-size: 3rem;
-    }
-    .contact-title p{
-        font-size: 1rem;
-        font-weight: var(--fw-light);
-    }
-
+  .contact-title h1 {
+    font-size: 3rem;
+  }
+  .contact-title p {
+    font-size: 1rem;
+    font-weight: var(--fw-light);
+  }
+}
+@media (max-width: 1200px) {
+  .hero {
+    padding: 9.75rem 0rem;
+  }
 }

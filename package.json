@@ -1,0 +1,29 @@
+{
+  "name": "MyPortfolio",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "zarif.dev",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier .  --write",
+    "lint": "eslint .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "prettierrc": {
+    "semi": true,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.6",
+    "vite": "^8.2.2"
+  }
+}
