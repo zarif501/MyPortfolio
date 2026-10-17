@@ -49,32 +49,3 @@
   font-weight: 600;
   color: var(--primary-color);
 }
-
-.footer-vid {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-
-  video {
-    width: 100%;
-    height: 100%;
-    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
-    object-fit: cover;
-    object-position: center;
-  }
-}
-.footer-contents {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.copy-right {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: var(--text-color);
-  padding: 20px;
-}
