@@ -1,8 +1,8 @@
 import rocket from "../../assets/icons/rocket.svg"
 import hero from "../../assets/images/hero.svg"
-
+import TechText from "../../components/TeachText/TechText";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-
+import HeroTextType from "../../components/TextType/HeroTextType";
 
 import "./home.css"
  
@@ -13,46 +13,22 @@ function Home() {
         <div className="hero-contents">
           <div className="hero-hook">
             <img src={rocket} alt="" />
-            <p>Crafted to inspire.</p>
+            <HeroTextType />
           </div>
 
-          <h1>
-            Computer
-            <span>Engineer</span>
-          </h1>
+          <div className="hero-title">
+            <TechText className="hero-title-text" text="Computer" />
+            <TechText className="hero-title-text" text="Engineer" />
+          </div>
 
           <p>
             Building digital experiences with clean code, thoughtful design, and
             innovative solutions.
           </p>
 
-          <div className="hero-teach-tools">
-            <div>Html</div>
-            <div>Jacascript</div>
-            <div>React</div>
-            <div>Python</div>
-          </div>
-
           <div className="hero-btn">
-            <button>View Projects</button>
             <button id="contact-me">Contact Me</button>
-          </div>
-
-          <div className="hero-social-icons">
-            <a href="https://instagram.com/mrr_zarif" target="_blank">
-              < FaInstagram/>
-            </a>
-
-            <a href="https://github.com/zarif501" target="_blank">
-              < FaGithub/>
-            </a>
-
-            <a
-              href="https://linkedin.com/in/zarif-nazari-b17447336"
-              target="_blank"
-            >
-              < FaLinkedin/>
-            </a>
+            <button>View Projects</button>
           </div>
         </div>
 
@@ -181,8 +157,8 @@ function Home() {
                 rows="5"
                 cols="50"
                 required
-                id="aboutUserMessageInput">
-              </textarea>
+                id="aboutUserMessageInput"
+              ></textarea>
             </div>
 
             <button className="form-btn" type="submit" id="click">

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 
 import CursorBlob from "./components/CursorBlob/CursorBlob";
 import NaBar from "./components/NavBar/NaBar";
-import Home from "./pages/Home/Home";
+import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import NotFound from "./pages/NotFound/NotFound";
 

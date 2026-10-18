@@ -1,14 +1,65 @@
 .tech-text {
-
   position: relative;
-  width: 10%;
-  height: 10%;
+  width: 100%;
+  height: 100%;
   touch-action: pan-y;
   user-select: none;
+  text-align: flex-start;
+  align-items: baseline;
 }
 
 .tech-text-canvas {
   display: block;
-  width: 100%;
-  height: 100%;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+}
+.hero-title-text{
+  font-size: 100;
+  
+}
+.hero-title > * {
+  display: block;
+  margin: 0;
+  padding: -5rem;
+  
+}
+
+.hero-title > * + * {
+  margin: -4rem;
+  margin-left: 0.8rem;
+  padding: -5rem;
+}
+
+@media (max-width: 768px) {
+
+  .hero-title {
+
+    width: 100%;
+
+    line-height: 1;
+
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+  .hero-title {
+    width: 100%;
+    padding-inline: 12px;
+
+  }
+
+  .hero-title > * + * {
+    margin-top: -10rem;
+
+  }
+
 }

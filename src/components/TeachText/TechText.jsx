@@ -34,7 +34,7 @@ const noise = (...values) => {
 const signed = value => (value > 0 ? `+${value}` : value < 0 ? `−${-value}` : '0');
 
 const TechText = ({
-  text = 'Zarif.dev',
+  text = '',
   fontFamily = '',
   fontWeight = 600,
   fontSize = 100,

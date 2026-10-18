@@ -1,10 +1,10 @@
 {
   "name": "MyPortfolio",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "license": "ISC",
-  "author": "zarif.dev",
-  "type": "commonjs",
+  "author": "Zarif Nazari",
+  "type": "module",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,6 +28,7 @@
   "dependencies": {
     "@blobatar/react": "^2.7.0",
     "blobatar": "^2.7.0",
+    "gsap": "^3.15.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-icons": "^5.7.0",

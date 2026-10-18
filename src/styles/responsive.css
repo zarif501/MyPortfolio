@@ -1,12 +1,4 @@
 @media (max-width: 768px) {
-  #skill-nav {
-    visibility: hidden;
-    display: none;
-  }
-
-  header {
-    padding: 1rem;
-  }
   .hero {
     padding: 0.75em 0;
   }
