@@ -8,7 +8,6 @@
   text-align: center;
   border-radius: 50px;
   backdrop-filter: blur(12px);
-  gap: 3em;
   padding: max(0.75em, env(safe-area-inset-top));
 }
 
@@ -29,23 +28,5 @@
 .nav-links {
   display: flex;
   justify-content: space-between;
-  gap: 1.75rem;
   align-items: center;
-}
-
-.nav-links a {
-  color: #d1d5db;
-  transition: color 0.2s ease;
-  text-decoration: none;
-  color: var(--text-color);
-  font-family: var(--font-main);
-  cursor: pointer;
-}
-.nav-contact {
-  display: none;
-}
-.nav-links a:hover,
-.nav-links:active {
-  font-weight: 600;
-  color: var(--primary-color);
 }

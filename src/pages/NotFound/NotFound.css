@@ -1,0 +1,35 @@
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found h1 {
+  font-size: clamp(6rem, 15vw, 12rem);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.not-found p {
+  margin-bottom: 2rem;
+}
+
+.not-found a {
+  text-decoration: none;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.not-found a:hover {
+  opacity: 0.7;
+}

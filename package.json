@@ -1,6 +1,6 @@
 {
   "name": "MyPortfolio",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "",
   "license": "ISC",
   "author": "zarif.dev",
@@ -26,6 +26,8 @@
     "vite": "^8.2.2"
   },
   "dependencies": {
+    "@blobatar/react": "^2.7.0",
+    "blobatar": "^2.7.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-icons": "^5.7.0",

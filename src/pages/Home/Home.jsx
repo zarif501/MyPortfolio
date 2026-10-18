@@ -3,7 +3,8 @@ import hero from "../../assets/images/hero.svg"
 
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
-import "../Home/home.css"
+
+import "./home.css"
  
 function Home() {
   return (

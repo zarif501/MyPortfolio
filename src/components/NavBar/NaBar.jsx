@@ -1,21 +1,23 @@
-import "../../components/NavBar/navbar.css"
+import { Link } from "react-router"
+import { FaInstagram } from "react-icons/fa"
+import "./navbar.css"
+import GooeyNav from "../GooeyNav/GooeyNav"
+import TechText from "../TeachText/TechText"
 
 function NaBar() {
     return (
-    <header class="navbar">
-        <a href="/" class="brand">zarif.dev</a>
+    <header className="navbar">
+        <TechText />
 
-        <nav class="nav-links" id="nav-links">
-        <a class="nav-link" href="#home">Home</a>
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#contact">Contact</a>
+        <nav className="nav-links" id="nav-links">
+            <GooeyNav />
         </nav>
 
-        <div class="nav-contact">
+        <div className="nav-contact">
         <h1></h1>
-        <a href="https://instagram.com/zarif.dev" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
+        <Link to="https://instagram.com/zarif.dev" target="_blank">
+            <FaInstagram/>
+        </Link>
         </div>
     </header>
   )
